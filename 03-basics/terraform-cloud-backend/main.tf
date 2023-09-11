@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "devops-directive"
+    organization = "Attia-Dev-ops"
 
     workspaces {
-      name = "devops-directive-terraform-course"
+      name = "dev-ops"
     }
   }
 
